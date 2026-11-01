@@ -1,1 +1,11 @@
-.venv
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+
+# Dataset: download from Mendeley, don't commit
+data/raw/
+data/interim/
+
+# Trained models and generated outputs
+models/*.joblib
